@@ -110,7 +110,7 @@ app.layout = html.Div(
     ])
     
     ],
-    style={"backgroundColor": "#F0F0F0"}
+    style={"backgroundColor": "#F9E075"}
 )
 
 # Define the callback to update the correlation plot
