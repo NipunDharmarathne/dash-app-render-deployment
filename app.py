@@ -41,7 +41,6 @@ server = app.server
 
 # Define the layout of the dashboard
 app.layout = html.Div(
-    style={"backgroundColor": "#F0F0F0"}
     children=[
     
     html.H1('CO544-2023 Lab 3: Wine Quality Prediction'),
@@ -109,7 +108,10 @@ app.layout = html.Div(
         html.H4("Predicted Quality"),
         html.Div(id='prediction-output')
     ])
-])
+    
+    ],
+    style={"backgroundColor": "#F0F0F0"}
+)
 
 # Define the callback to update the correlation plot
 @app.callback(
